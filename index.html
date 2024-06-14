@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Lights Electric</title>
+    <meta name="description" content="As a UX/UI Designer and Frontend Developer, I create easy-to-use SaaS and marketing websites with a premium look and feel. I have a lean, customer-first methodology that informs what I make so we know we're as close to building the right thing as we can get.">
+    <meta property="og:title" content="Jason DiPopolo">
+    <meta property="og:description" content="As a UX/UI Designer and Frontend Developer, I create easy-to-use SaaS and marketing websites with a premium look and feel. I have a lean, customer-first methodology that informs what I make so we know we're as close to building the right thing as we can get.">
+    <meta property="og:image" content="/images/openGraphImg.jpg">
+    <meta property="og:url" content="https://jasondipopolo.com">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Flowbite CDN (Head) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"  rel="stylesheet" />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Google Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="icon" type="image/x-icon" href="/images/CLE_logo.svg">
+
+    <!-- Imported Web Components -->
+  <script defer src="NavBar.js"></script>
+
+</head>
+<body class="">
+
+<!-- Navbar Web Component -->
+<!-- <nav-bar></nav-bar> -->
+    
+<!-- Navbar -->
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="/index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="/images/CLE_logo.svg" class="h-8" alt="City Lights Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">City Lights Electric</span>
+      </a>
+      <!-- <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button> -->
+      <!-- <div class="hidden w-full md:block md:w-auto" id="navbar-default"> -->
+        <!-- <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"> -->
+          <!-- <li>
+            <a href="/index.html" class="block py-2 px-3 text-black bg-amber-700 rounded md:bg-transparent md:text-amber-700 md:p-0 dark:text-white md:dark:text-amber-500" aria-current="page">Home</a>
+          </li> -->
+          <!-- <li>
+            <a href="/#works" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-amber-700 md:p-0 dark:text-white md:dark:hover:text-amber-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Works</a>
+          </li>
+          <li>
+            <a href="/blog.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-amber-700 md:p-0 dark:text-white md:dark:hover:text-amber-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
+          </li> -->
+          <!-- <li>
+            <a href="/buildyourwebsite.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-amber-700 md:p-0 dark:text-white md:dark:hover:text-amber-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Build Your Website</a>
+          </li> -->
+          <!-- <li>
+            <a href="/careercoaching.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-amber-700 md:p-0 dark:text-white md:dark:hover:text-amber-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Career Coaching</a>
+          </li> -->
+          <!-- <li>
+            <a href="/careercoaching.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-amber-700 md:p-0 dark:text-white md:dark:hover:text-amber-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Assets</a>
+          </li> -->
+          <!-- <li>
+            <a href="/careercoaching.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-amber-700 md:p-0 dark:text-white md:dark:hover:text-amber-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Book</a>
+          </li> -->
+        <!-- </ul>
+      </div> -->
+    </div>
+  </nav>
+  
+  <!-- Hero -->
+  <section class="bg-white dark:bg-gray-900">
+    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div class="mr-auto place-self-center lg:col-span-7">
+            <h1 class="max-w-2xl mb-4 text-4xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Powering your home and business</h1>
+            <p class="max-w-2xl mb-6 text-gray-500 lg:mb-8 sm:text-xl dark:text-gray-400">Serving Bergen County, NJ since 1998.</p>
+            <a href="tel:2012260330" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black rounded-lg bg-amber-300 hover:bg-amber-500 focus:ring-4 focus:ring-amber-300 dark:focus:ring-amber-900">
+                <span class="material-symbols-outlined w-5 h-5 text-amber-600 lg:w-6 lg:h-6 mr-2">
+                    phone
+                    </span>
+                Call us at (201)-226-0330
+            </a>
+            <p class="mt-2 text-sm text-gray-500">Emergency? Call <a href="tel:2018032557" class="mr-6 text-sm font-medium text-gray-500 hover:underline sm:inline">(201) 803-2557</a></p>
+        </div>
+        <div class="hidden lg:mt-0 lg:col-span-4 lg:flex">
+            <img class="dark:hidden" src="/images/CityLightsLogo-New.svg" alt="hero image">
+            <img class="dark:block hidden" src="/images/CityLightsLogo-NewDarkMode.svg" alt="hero image">
+        </div>                
+    </div>
+</section>
+
+<!-- Social Proof -->
+<!-- <section class="bg-white dark:bg-gray-900">
+    <div class="items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-16 lg:px-6">
+        <div class="col-span-2 mb-8">
+            <p class="text-black dark:text-white text-lg font-medium text-amber-600 dark:text-amber-500">Jason "instills confidence and reliability"</p>
+            <h2 class="mt-3 mb-4 text-3xl tracking-tight font-bold text-gray-900 md:text-4xl dark:text-white">Trusted to design for a 500k+ user base</h2>
+            <p class="text-gray-500 sm:text-xl dark:text-gray-400">Those who work with Jason have said he's positive, innovative, proactive, a team player, mindful, leaves his ego at the door, a consistent volunteer, and a design leader.</p>
+            <div class="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
+                <div>
+                  <a href="/#works" class="text-black dark:text-white inline-flex items-center text-base font-medium text-amber-600 hover:text-amber-800 dark:text-amber-500 dark:hover:text-amber-700">
+                    Explore my work
+                    <svg class="ml-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
+            <div>
+                <span class="text-black dark:text-white material-symbols-outlined" style="font-size: 3.5rem;">self_improvement</span>
+                <h3 class="mb-2 text-2xl font-bold dark:text-white">70% Boost in Usability</h3>
+                <p class="font-light text-gray-500 dark:text-gray-400 sm:text-lg">based on before and after usability test scores</p>
+            </div>
+            <div>
+                <span class="text-black dark:text-white material-symbols-outlined" style="font-size: 3.5rem;">draw_abstract</span>
+                <h3 class="mb-2 text-2xl font-bold dark:text-white">6+ Years Experience</h3>
+                <p class="font-light text-gray-500 dark:text-gray-400 sm:text-lg">in the visual design industry</p>
+            </div>
+            <div>
+                <span class="text-black dark:text-white material-symbols-outlined" style="font-size: 3.5rem;">connect_without_contact</span>
+                <h3 class="mb-2 text-2xl font-bold dark:text-white">2+ Years Experience</h3>
+                <p class="font-light text-gray-500 dark:text-gray-400 sm:text-lg">in the Tech industry for SaaS</p>
+            </div>
+            <div>
+                <span class="text-black dark:text-white material-symbols-outlined" style="font-size: 3.5rem;">accessible</span>
+                <h3 class="mb-2 text-2xl font-bold dark:text-white">5 Accessibility Issues</h3>
+                <p class="font-light text-gray-500 dark:text-gray-400 sm:text-lg">Found for every 1 work item worked on</p>
+            </div>
+        </div>
+    </div>
+  </section> -->
+
+  <section class="bg-white dark:bg-gray-900">
+    <div class="py-4 px-4 mx-auto max-w-screen-xl lg:px-auto sm:text-center lg:pt-4 lg:pb-16">
+        <!-- <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">We didn't reinvent the wheel</h2> -->
+        <!-- <p class="font-light text-gray-500 sm:text-lg md:px-20 lg:px-38 xl:px-48 dark:text-gray-400">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.</p> -->
+        <div class="gap-4 mt-8 sm:grid sm:grid-cols-4 sm:mt-12">
+            <img class="col-span-2 mb-4 sm:mb-0 rounded-lg" src="/images/photo-1609280070598-e1770c80b75c.jpg" alt="content gallery 1">
+            <img class="hidden col-span-1 sm:block rounded-lg" src="/images/home-charging-hero-desktop.jpg" alt="content gallery 2">
+            <img class="hidden col-span-1 sm:block rounded-lg" src="/images/generac-generator-in-backyard.jpg" alt="content gallery 3">
+            <!-- <img class="hidden col-span-1 sm:block rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-4.png" alt="content gallery 4">
+            <img class="col-span-2 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-5.png" alt="content gallery 5">
+            <img class="hidden col-span-1 sm:block rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-6.png" alt="content gallery 6"> -->
+        </div>
+    </div>
+</section>
+
+  <!-- Features -->
+  <section class="bg-gray-50 dark:bg-gray-900">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-16">
+            <h2 class="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">Commercial and Residential Services We Provide</h2>
+            <!-- <p class="font-light text-gray-500 dark:text-gray-400 sm:text-xl">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p> -->
+        </div>
+        <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-8 xl:gap-8 md:space-y-0">
+            <div class="p-6 bg-white rounded shadow dark:bg-gray-800">
+                <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-amber-100 lg:h-12 lg:w-12 dark:bg-amber-900">
+                    <span class="material-symbols-outlined w-6 h-6 text-amber-600 lg:w-6 lg:h-6 dark:text-amber-300">
+                        lightbulb
+                        </span>
+                </div>
+                <h3 class="mb-2 text-xl font-bold dark:text-white">Indoor & Outdoor Lighting</h3>
+                <p class="font-light text-gray-500 dark:text-gray-400">Enhance your space with customized indoor and outdoor lighting solutions for homes and businesses.</p>
+            </div>
+            <div class="p-6 bg-white rounded shadow dark:bg-gray-800">
+                <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-amber-100 lg:h-12 lg:w-12 dark:bg-amber-900">
+                    <span class="material-symbols-outlined w-6 h-6 text-amber-600 lg:w-6 lg:h-6 dark:text-amber-300">
+                        outlet
+                        </span>
+                </div>
+                <h3 class="mb-2 text-xl font-bold dark:text-white">Outlets & GFIs</h3>
+                <p class="font-light text-gray-500 dark:text-gray-400">Install and upgrade outlets and GFIs to ensure electrical safety and efficiency in any environment.</p>
+            </div>
+            <div class="p-6 bg-white rounded shadow dark:bg-gray-800">
+                <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-amber-100 lg:h-12 lg:w-12 dark:bg-amber-900">
+                    <span class="material-symbols-outlined w-6 h-6 text-amber-600 lg:w-6 lg:h-6 dark:text-amber-300">
+                        foundation
+                        </span>
+                </div>
+                <h3 class="mb-2 text-xl font-bold dark:text-white">New Construction</h3>
+                <p class="font-light text-gray-500 dark:text-gray-400">Comprehensive electrical services for new construction projects, from wiring to final installation.</p>
+            </div>
+            <div class="p-6 bg-white rounded shadow dark:bg-gray-800">
+                <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-amber-100 lg:h-12 lg:w-12 dark:bg-amber-900">
+                    <span class="material-symbols-outlined w-6 h-6 text-amber-600 lg:w-6 lg:h-6 dark:text-amber-300">
+                        bolt
+                        </span>
+                </div>
+                <h3 class="mb-2 text-xl font-bold dark:text-white">Service Installation, Repair, and Upgrades</h3>
+                <p class="font-light text-gray-500 dark:text-gray-400">Professional installation of new electrical services tailored to meet your power needs.</p>
+            </div>
+            <div class="p-6 bg-white rounded shadow dark:bg-gray-800">
+                <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-amber-100 lg:h-12 lg:w-12 dark:bg-amber-900">
+                    <span class="material-symbols-outlined w-6 h-6 text-amber-600 lg:w-6 lg:h-6 dark:text-amber-300">
+                        detector_smoke
+                        </span>
+                </div>
+                <h3 class="mb-2 text-xl font-bold dark:text-white">Smoke Detector Systems</h3>
+                <p class="font-light text-gray-500 dark:text-gray-400">Install and maintain advanced smoke detector systems for enhanced safety.</p>
+            </div>
+            <div class="p-6 bg-white rounded shadow dark:bg-gray-800">
+                <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-amber-100 lg:h-12 lg:w-12 dark:bg-amber-900">
+                    <span class="material-symbols-outlined w-6 h-6 text-amber-600 lg:w-6 lg:h-6 dark:text-amber-300">
+                        detector_alarm
+                        </span>
+                </div>
+                <h3 class="mb-2 text-xl font-bold dark:text-white">Alarm & Security Systems</h3>
+                <p class="font-light text-gray-500 dark:text-gray-400">Secure your property with modern alarm system installations and maintenance. We also install Ring cameras and doorbells.</p>
+            </div>
+            <div class="p-6 bg-white rounded shadow dark:bg-gray-800">
+                <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-amber-100 lg:h-12 lg:w-12 dark:bg-amber-900">
+                    <span class="material-symbols-outlined w-6 h-6 text-amber-600 lg:w-6 lg:h-6 dark:text-amber-300">
+                        electric_car
+                        </span>
+                </div>
+                <h3 class="mb-2 text-xl font-bold dark:text-white">Electric Car Chargers</h3>
+                <p class="font-light text-gray-500 dark:text-gray-400">Charge your Tesla or other electric car conveniently from your own home.</p>
+            </div>
+            <div class="p-6 bg-white rounded shadow dark:bg-gray-800">
+                <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-amber-100 lg:h-12 lg:w-12 dark:bg-amber-900">
+                    <span class="material-symbols-outlined w-6 h-6 text-amber-600 lg:w-6 lg:h-6 dark:text-amber-300">
+                        in_home_mode
+                        </span>
+                </div>
+                <h3 class="mb-2 text-xl font-bold dark:text-white">Generator Installation, Repairs, and Maintenance</h3>
+                <p class="font-light text-gray-500 dark:text-gray-400">Reliable generator installation, repair, and maintenance to ensure continuous power.</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="bg-white dark:bg-gray-900">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <div class="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
+            <h2 class="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">About City Lights Electric</h2>
+            <p class="mb-4">We are a family-owned business based in Paramus, NJ with decades in the industry. Certified Electrician, Gerard DiPopolo founded the company back in 1998. Him and his son, Tyler DiPopolo are prepared to provide reliable electric solutions tailored toward your customer needs.</p>
+            <!-- <p class="mb-4 font-medium">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.Accelerate critical development work, eliminate toil, and deploy changes with ease.</p> -->
+            <!-- <a href="#" class="inline-flex items-center font-medium text-primary-600 hover:text-primary-800 dark:text-primary-500 dark:hover:text-primary-700">
+                Learn more
+                <svg class="ml-1 w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+            </a> -->
+        </div>
+    </div>
+  </section>
+
+    <!-- FAQ -->
+  <section class="bg-white dark:bg-gray-900 pb-12">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 ">
+        <h2 class="mb-6 lg:mb-8 text-4xl lg:text-4xl tracking-tight font-bold text-center text-gray-900 dark:text-white">Frequently asked questions</h2>
+        <div class="mx-auto max-w-screen-md">
+            <div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+                <h2 id="accordion-flush-heading-1">
+                    <button type="button" class="flex justify-between items-center py-5 w-full font-medium text-left text-gray-900 bg-white border-b border-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:text-white" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
+                        <span>Is City Lights Electric licensed?</span>
+                        <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </h2>
+                <div id="accordion-flush-body-1" class="" aria-labelledby="accordion-flush-heading-1">
+                    <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Yes, City Lights Electric is a licensed electrical contractor in the state of NJ.</p>
+                        <p class="text-gray-500 dark:text-gray-400">To perform electrical work in the state of New Jersey, you must hold an electrical contractor license, a journeyman electrician license, or work under a licensed electrician. <a href="https://www.servicetitan.com/licensing/electrician/new-jersey" class="text-amber-600 dark:text-amber-500 hover:underline">Read more on electrical licenses in NJ</a>.</p>
+                    </div>
+                </div>
+                <h2 id="accordion-flush-heading-2">
+                    <button type="button" class="flex justify-between items-center py-5 w-full font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+                        <span>Does City Lights Electric work outside of Bergen County?</span>
+                        <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </h2>
+                <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+                    <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">We are located in Paramus, NJ and have done work in Passaic, Essex, Hudson County and beyond. If you're looking to see if City Lights Electric would service you, give us a call to inquire.</p>
+                        <!-- <p class="text-gray-500 dark:text-gray-400">Check out the <a href="#" class="text-amber-600 dark:text-amber-500 hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p> -->
+                    </div>
+                </div>
+                <h2 id="accordion-flush-heading-3">
+                    <button type="button" class="flex justify-between items-center py-5 w-full font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+                        <span>Do you work with "smart" devices that I can manage from apps on my phone?</span>
+                        <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </h2>
+                <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+                    <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Yes, we have worked with smart switches, outlets, thermostats, and more. We can help you get it set up on your smartphone and ensure you understand how to use it.</p>
+                        <!-- <ul class="pl-5 list-disc text-gray-500 dark:text-gray-400"> -->
+                            <!-- <li><a href="#" class="text-amber-600 dark:text-amber-500 hover:underline">Flowbite Pro</a></li>
+                            <li><a href="#" class="text-amber-600 dark:text-amber-500 hover:underline">Tailwind UI</a></li> -->
+                        <!-- </ul> -->
+                    </div>
+                </div>
+                <h2 id="accordion-flush-heading-4">
+                    <button type="button" class="flex justify-between items-center py-5 w-full font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-4" aria-expanded="false" aria-controls="accordion-flush-body-4">
+                        <span>What should I do if I experience an electrical emergency?</span>
+                        <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </h2>
+                <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
+                    <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">In an electrical emergency, such as a burning smell from electrical components or exposed wires, turn off the power at the breaker box and contact a licensed electrician immediately for assistance.</p>
+                        <!-- <ul class="pl-5 list-disc text-gray-500 dark:text-gray-400">
+                            <li><a href="#" class="text-amber-600 dark:text-amber-500 hover:underline">Flowbite Pro</a></li>
+                            <li><a href="#" class="text-amber-600 dark:text-amber-500 hover:underline">Tailwind UI</a></li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div> 
+        </div>               
+    </div>
+</section>
+
+
+
+
+  <!-- Footer -->
+  <footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
+    <div class="mx-auto max-w-screen-xl text-center">
+        <a href="/index.html" class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
+            City Lights Electric    
+        </a>
+        <p class="mt-1 mb-6 text-gray-500 dark:text-gray-400">Powering your home and business.</p>
+        <!-- <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
+            <li>
+                <a href="/#works" class="mr-4 hover:underline md:mr-6 ">Works</a>
+            </li>
+            <li>
+              <a href="/blog.html" class="mr-4 hover:underline md:mr-6 ">Blog</a>
+          </li> -->
+            <!-- <li>
+                <a href="/buildyourwebsite.html" class="mr-4 hover:underline md:mr-6 ">Build Your Website</a>
+            </li> -->
+            <!-- <li>
+                <a href="/careercoaching.html" class="mr-4 hover:underline md:mr-6">Career Coaching</a>
+            </li> -->
+            <!-- <li>
+                <a href="#" class="mr-4 hover:underline md:mr-6">Affiliate Program</a>
+            </li>
+            <li>
+                <a href="#" class="mr-4 hover:underline md:mr-6">FAQs</a>
+            </li>
+            <li>
+                <a href="#" class="mr-4 hover:underline md:mr-6">Campaigns</a>
+            </li> -->
+        </ul>
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">©2024 <a href="#" class="hover:underline">Jason DiPopolo</a> | All Rights Reserved</span>
+    </div>
+  </footer>
+  
+
+
+    <!-- Flowbite CDN (End of Body) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+</body>
+</html>
